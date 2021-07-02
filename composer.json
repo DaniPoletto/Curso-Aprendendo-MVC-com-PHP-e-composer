@@ -1,0 +1,24 @@
+{
+    "name": "danipoletto/curso_mvc",
+    "description": "Curso de MVC com Composer no PHP",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Daniela Poletto",
+            "email": "daniela@6tres.com.br"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php" : ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\":"app/",
+            "core\\":"core/"
+        },
+        "files": [
+            "config/config.php"
+        ]
+    }
+}
